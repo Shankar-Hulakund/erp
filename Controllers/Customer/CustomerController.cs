@@ -26,6 +26,7 @@ namespace erp_sql.Controllers.Customer
             return Ok(customers);
         }
 
+        //Get request
         [HttpGet("getcustomers/{Custid}")]
         public async Task<IActionResult> GetCustomerId(int Custid)
         {
